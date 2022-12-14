@@ -1,0 +1,8 @@
+a=rand(10,1);
+sum=0;
+for i=1:length(a)
+sum=sum+a(i);
+fprintf('Suma %g\n',sum);
+end
+fprintf('-----------');
+fprintf('Suma ostateczna %g\n',sum);
