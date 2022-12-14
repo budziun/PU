@@ -1,0 +1,10 @@
+function [V] = kapital( v0,r,n,m)
+if(nargin<4)
+       %nie podano m
+       m=1;
+end
+
+V=v0*(1+(r/m))^(m*n);
+
+end
+
